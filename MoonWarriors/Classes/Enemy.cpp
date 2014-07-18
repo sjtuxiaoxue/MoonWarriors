@@ -24,7 +24,7 @@ Enemy::~Enemy()
     
 }
 
-/**自己的create函数，因为要带参数，那个子弹类也可以这么写*/
+/**自己的create函数，因为要带参数，那个子弹类也可以这么写 */
 Enemy* Enemy::create(EnemyType type)
 {
     Enemy *pRet = new Enemy();
@@ -67,7 +67,7 @@ void Enemy::update(float dt)
     }
 }
 
-void Enemy::shoot()
+void Enemy::shoot(float)
 {
     CCPoint pos = this->getPosition();
     Bullet *bullet = new Bullet(m_bulletSpeed, "W2.png", m_attackMode);

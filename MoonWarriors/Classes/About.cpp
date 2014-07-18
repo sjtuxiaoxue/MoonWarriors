@@ -59,7 +59,7 @@ bool About::init()
     return  true;
 }
 
-void About::goBack()
+void About::goBack(CCObject*)
 {
     CCScene *scene = StartMenu::scene();
     CCDirector::sharedDirector()->replaceScene(CCTransitionFade::create(1.2, scene));

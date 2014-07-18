@@ -33,7 +33,7 @@ public:
     void onButtonEffect();
     
     // flare effct
-    void flareEffect(CCNode *node);
+    void flareEffect(CCObject *node);
     
     // draw ship
     virtual void update(float dt);

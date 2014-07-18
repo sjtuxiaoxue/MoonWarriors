@@ -47,7 +47,7 @@ void PauseLayer::registerWithTouchDispatcher()
 {
     // NDK编译，需加上头 #include <limits>
     // 优先级数字设为最小，那么具有最高优先级，最后参数设为true，则触摸会被这里吞掉，下面的层不会接收到触摸事件
-    CCDirector::sharedDirector()->getTouchDispatcher()->addTargetedDelegate(this, (std::numeric_limits<int>::min()), true);
+    CCDirector::sharedDirector()->getTouchDispatcher()->addTargetedDelegate(this, (std::numeric_limits<int>::min)(), true);
     CCLayer::registerWithTouchDispatcher();
 }
 

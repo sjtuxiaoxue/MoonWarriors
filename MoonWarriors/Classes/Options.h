@@ -16,7 +16,7 @@ class Options : public CCLayer {
     
 public:
     static CCScene* scene();
-    void setOptions();
+    void setOptions(CCObject*);
     void goBack(CCObject *pSender);
     virtual bool init();
     CREATE_FUNC(Options);

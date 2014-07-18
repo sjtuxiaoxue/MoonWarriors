@@ -33,7 +33,7 @@ public:
     ~Enemy();
     bool enemyInit(EnemyType type);
     virtual void update(float dt);
-    void shoot();
+    void shoot(float);
     virtual void hurt();
     virtual void destroy();
     virtual CCRect collideRect();

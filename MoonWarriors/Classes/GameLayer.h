@@ -45,7 +45,7 @@ public:
     ~GameLayer();
     virtual bool init();
     virtual void update(float dt);
-    void scoreCounter();
+    void scoreCounter(float);
     Ship* getShip();
     void checkIsCollide();
     void removeInactiveUnit(float dt);
@@ -57,7 +57,7 @@ public:
     virtual void onEnter();
     virtual void onExit();
     void initBackground();
-    void movingBackground();
+    void movingBackground(float);
     virtual bool ccTouchBegan(CCTouch* touch, CCEvent* event);
     virtual void ccTouchMoved(CCTouch* touch, CCEvent* event);
     virtual void ccTouchEnded(CCTouch* touch, CCEvent* event);

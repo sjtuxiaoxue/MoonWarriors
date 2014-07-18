@@ -75,7 +75,7 @@ bool Options::init()
     return true;
 }
 
-void Options::setOptions()
+void Options::setOptions(CCObject*)
 {
     bool tmpSound = Config::sharedConfig()->getAudioState();
     Config::sharedConfig()->updateAudioState(!tmpSound);

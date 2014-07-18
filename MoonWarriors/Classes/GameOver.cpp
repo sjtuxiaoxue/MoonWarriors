@@ -68,7 +68,7 @@ bool GameOver::init()
     
 }
 
-void GameOver::playAgain()
+void GameOver::playAgain(CCObject*)
 {
     CCScene *scene = CCScene::create();
     scene->addChild(GameLayer::create());

@@ -17,7 +17,7 @@ class About : public CCLayer {
 public:
     static CCScene* scene();
     virtual bool init();
-    void goBack();
+    void goBack(CCObject*);
     CREATE_FUNC(About);
     
 };

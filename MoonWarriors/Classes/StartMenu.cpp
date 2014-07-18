@@ -115,7 +115,7 @@ void StartMenu::onButtonEffect()
    
 }
 
-void StartMenu::flareEffect(CCNode *node)
+void StartMenu::flareEffect(CCObject *node)
 {
     onButtonEffect();
     Effect* flareEffect = Effect::create();

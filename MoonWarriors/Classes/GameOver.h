@@ -19,7 +19,7 @@ public:
 
     virtual bool init();
     static CCScene * scene();
-    void playAgain();
+    void playAgain(CCObject*);
     CREATE_FUNC(GameOver);
 };
 

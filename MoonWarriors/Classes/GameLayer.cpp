@@ -132,7 +132,7 @@ void GameLayer::update(float dt)
     
 }
 
-void GameLayer::scoreCounter()
+void GameLayer::scoreCounter(float)
 {
     if (m_state == statePlaying) {
         m_time++;
@@ -254,7 +254,7 @@ void GameLayer::updateUI()
         m_tempScore += 5;
     }
     char score[20];
-    char s[] = "Score:";
+    char s[26] = "Score:";
     sprintf(score, "%d", m_tempScore);
     m_lbScore->setString(strcat(s, score));
     char lifecount[2];
@@ -326,7 +326,7 @@ void GameLayer::initBackground()
 }
 
 // 这里就是视差背景了
-void GameLayer::movingBackground()
+void GameLayer::movingBackground(float)
 {
     m_backSky->runAction(CCMoveBy::create(3, ccp(0, -48)));
     m_backTileMap->runAction(CCMoveBy::create(3, ccp(0, -200)));

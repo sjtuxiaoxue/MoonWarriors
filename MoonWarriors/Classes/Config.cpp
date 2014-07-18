@@ -14,7 +14,7 @@ CCArray *enemy_items;
 
 static  Config *g_config = NULL;
 
-/**这里用的单例做的全局参数。JS版的直接就定义了一堆全局数组，真是方便*/
+/**这里用的单例做的全局参数。JS版的直接就定义了一堆全局数组，真是方便 */
 Config::Config():m_scoreValue(0),m_life(3),m_isAudioOn(true)
 {
     CCAssert(g_config == NULL, "Attempted to allocate a second instance of a singleton.");
