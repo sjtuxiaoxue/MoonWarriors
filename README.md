@@ -1,12 +1,10 @@
-MoonWarriors
+MoonWarriors in Cocos2d-x 2.2.5
 ============
+Please refer to the original README.md for more information in the master branch.
+This branch should be worked for the following features:
+1. Merging into Cocos2d-x 2.2.5
+2. Cleanup and re-structure codes.
+3. Fix small bugs.
 
-所有资源均来自cocos2d-html5版的MoonWarriors项目。版权归原作者所有。
-
-游戏逻辑参照原版，你可以对比html5的源码来学习。
-
-另外，游戏可能还存在一些问题。如果你有什么好的建议，请联系我。
-
-E:fylz1125@163.com
-
-blog:http://blog.csdn.net/fylz1125
+E-mail: xiaoxue.sjtu@gmail.com
+Blog:   http://sjtuxiaoxue.wordpress.com/
